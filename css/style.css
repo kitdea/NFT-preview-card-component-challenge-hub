@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+  min-height: 98vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+}
+
+.eq-container {
+  width: 100%;
+  max-width: 320px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 1.4rem;
+  margin: 1rem;
+  border-radius: 16px;
+}
+
+.eq-img-box img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.eq-container p {
+  color: hsl(215, 51%, 70%);
+}
+
+.nft-img p {
+  color: hsl(178, 100%, 50%);
+}
+
+.box-text p {
+  margin: 0;
+}
+
+.box-nft {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nft-img, .nft-days {
+  display: flex;
+  align-items: center;
+}
+
+.nft-img img, .nft-days img {
+  margin-right: 10px;
+}
+
+.box-avatar {
+  display: flex;
+  border-top: 1px solid hsl(215, 32%, 27%);
+  padding: 1rem 0;
+}
+
+.box-avatar img {
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
