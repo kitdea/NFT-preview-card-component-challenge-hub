@@ -25,48 +25,45 @@ html, body {
   padding: 1.4rem;
   margin: 1rem;
   border-radius: 16px;
+  cursor: default;
 }
 
 .eq-img-box {
   position: relative;
-  position: relative;
   cursor: pointer;
   overflow: hidden;
   border-radius: 10px;
-}
-
-.eq-img-box:hover {
-  display: block;
-  z-index: 8;
+  color: hsl(178, 100%, 50%, 0.5);
 }
 
 .eq-img-box img {
   width: 100%;
 }
 
-/* .eq-img01 {
-    background-image: url("/images/image-equilibrium.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: 100%;
-} */
+.eq-img01 {
+  background-image: url("/images/image-equilibrium.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 260px;
+}
 
 .eq-img02{
-  display: none;
   position: absolute;
-  top: 110px;
-  right: 110px;
-  width: 20%;
-  height: 20%;
-  background: url(/images/icon-view.svg) no-repeat center center;
-  background-size: cover;
-  background-color: hsl(178, 100%, 50%, 0.5);
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 260px;
 }
 
 .eq-img02:hover {
   display: block;
-  z-index: 10;
+  background: url(/images/icon-view.svg) no-repeat center center;
+  background-color: hsl(178, 100%, 50%);
+  opacity: 0.4;
+  width: 100%;
+  height: 260px;
 }
 
 .eq-container p {
